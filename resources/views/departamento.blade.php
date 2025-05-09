@@ -25,7 +25,7 @@
                         de qualidade nas áreas de
                         Ciências Físicas e Biológicas, envolvendo o ensino das línguas estrangeiras (Francês e Inglês).
                         Dispomos aos alunos e professores
-                        as melhores as condições de ensino e aprendizagem, com vista no melhor aproveitamneto dos
+                        as melhores as condições para o Ensino e aprendizagem, com vista no melhor aproveitamento dos
                         estudantes durante suas formações. Conheça as nossas áreas abaixo:</p>
                 </div>
             </div>
@@ -82,29 +82,6 @@
         </div>
     </div>
 </section>
-
-<footer>
-    <div class="footer-top text-center">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6 text-center">
-                    <h4 class="navbar-brand"> Liceu Eiffel de Ondjiva<span class="dot"> </span></h4>
-                    <p> </p>
-                    <div class="col-auto social-icons">
-                        <a href="#"><i class='bx bxl-facebook'></i></a>
-                        <a href="#"><i class='bx bxl-twitter'></i></a>
-                        <a href="#"><i class='bx bxl-instagram'></i></a>
-                        <a href="#"><i class='bx bxl-pinterest'></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-bottom text-center">
-        <p class="mb-0">Desenvolvido por: <a style="text-decoration:none; color:#fff;" href=""> Liceu Eiffel de
-                Ondjiva</a></p>
-    </div>
-</footer>
 
 
 <!-- Modal -->

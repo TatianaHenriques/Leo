@@ -24,7 +24,7 @@
                     <p><i class='bx bxs-phone-call'></i> +244 265 351 020</p>
                 </div>
                 <div class="col-auto social-icons">
-                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61575700967289" target="_blank"><i class='bx bxl-facebook'></i></a>
                     <a href="#"><i class='bx bxl-twitter'></i></a>
                     <a href="#"><i class='bx bxl-instagram'></i></a>
                     <a href="#"><i class='bx bxl-pinterest'></i></a>
@@ -44,7 +44,7 @@
 
             <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ms-auto">
-                  <li class="nav-item"><a class="nav-link" href="{{ url('/index') }}">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="{{ url('/index') }}">Pagina Inicial</a></li>
                   <li class="nav-item"><a class="nav-link" href="{{ url('/direccao') }}">Direcção</a></li>
                   <li class="nav-item"><a class="nav-link" href="{{ url('/secretaria') }}">Secretaria</a></li>
                   <li class="nav-item"><a class="nav-link" href="{{ url('/curso') }}">Curso</a></li>
@@ -68,9 +68,33 @@
 
     <hr>
 
+    
+    <footer>
+        <div class="footer-top text-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <h4 class="navbar-brand"> Liceu Eiffel de Ondjiva<span class="dot"> </span></h4>
+                        <p> </p>
+                        <div class="col-auto social-icons">
+                            <a href="https://www.facebook.com/profile.php?id=61575700967289" target="_blank"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram'></i></a>
+                            <a href="#"><i class='bx bxl-pinterest'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+                   <p class="text-center">Desenvolvido por: <a style="text-decoration:none; color:#fff;" href=""> Liceu Eiffel de
+                    Ondjiva</a></p>
+        </div>
+    </footer>
     <footer>
         <p class="text-center">© 2025 Liceu Eiffel de Ondjiva</p>
     </footer>
+    
 
     <!-- JS -->
     <script src="{{ asset('js/jquery.min.js') }}"></script>

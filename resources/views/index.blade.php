@@ -7,6 +7,7 @@
 
 
 <!-- SLIDER -->
+
 <div class="owl-carousel owl-theme hero-slider">
     <div class="slide slide1">
         <div class="container">
@@ -32,22 +33,20 @@
             </div>
         </div>
     </div>
-</div>
-<div class="slide slide3">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center text-white">
-                <h1 class="display-3 my-4"> Finalistas 2024/2025</h1>
-                <h6 class="text-white text-uppercase">Geração de Ouro</h6>
-                <a href="#about" class="btn btn-brand">Ler +</a>
-                <!--<a href="#" class="btn btn-outline-light ms-3">Our work</a>-->
+    <div class="slide slide4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center text-white">
+                    <h1 class="display-3 my-4 "> Finalistas 2024/2025</h1>
+                    <h6 class="text-white text-uppercase">Geração de Ouro</h6>
+                    <a href="#about" class="btn btn-brand">Ler +</a>
+                    <!--<a href="#" class="btn btn-outline-light ms-3">Our work</a>-->
+                </div>
             </div>
         </div>
     </div>
+    </div>
 </div>
-</div>
-
-
 
 <!-- sobre -->
 <section id="about">
@@ -58,7 +57,7 @@
 
                     <div class="col-12">
                         <div class="info-box">
-                            <img src="img/icon6.png" alt="">
+                            <img src="img/icone-7.png" alt="">
                             <div class="ms-4">
                                 <h5>Liceu Eiffel de Ondjiva</h5>
                                 <p>Ou simplesmente LEO localiza-se em Angola, na província do Cunene, no município do
@@ -69,7 +68,7 @@
                     </div>
                     <div class="col-12 mt-4">
                         <div class="info-box">
-                            <img src="img/local.png" alt="">
+                            <img src="img/local-2.png" alt="">
                             <div class="ms-4">
                                 <h5>Área de de Localização</h5>
                                 <p>Com cerca de 320 mil habitantes, a comuna de Ondjiva é limitada a Norte pela
@@ -80,7 +79,7 @@
                     </div>
                     <div class="col-12 mt-4">
                         <div class="info-box">
-                            <img src="img/ondjiva3.png" alt="">
+                            <img src="img/ondjiva-3.png" alt="">
                             <div class="ms-4">
                                 <h5>Bairro:</h5>
                                 <p>Naipalala III, Estrada Nacional 105;
@@ -92,10 +91,10 @@
                 </div>
             </div>
             <div class="col-lg-5">
-                <img src="img/about.png" alt="">
+                <img src="img/sobre.png" alt="" style= "width:80%; margin-top:30px;"class ="mx-auto">
             </div>
 
-            <p style="margin-right:auto;">
+            <p style="text-align:center;">
                 Actualmente o Liceu atende o IIº Ciclo do Ensino Secundário, em um período diurno, com a
                 capacidade de albergar 150 alunos no máximo.
             </p>
@@ -129,28 +128,6 @@
     </div>
 </section>
 
-<footer>
-    <div class="footer-top text-center">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6 text-center">
-                    <h4 class="navbar-brand"> Liceu Eiffel de Ondjiva<span class="dot"> </span></h4>
-                    <p> </p>
-                    <div class="col-auto social-icons">
-                        <a href="#"><i class='bx bxl-facebook'></i></a>
-                        <a href="#"><i class='bx bxl-twitter'></i></a>
-                        <a href="#"><i class='bx bxl-instagram'></i></a>
-                        <a href="#"><i class='bx bxl-pinterest'></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-bottom text-center">
-        <p class="mb-0">Desenvolvido por: <a style="text-decoration:none; color:#fff;" href=""> Liceu Eiffel de
-                Ondjiva</a></p>
-    </div>
-</footer>
 
 
 <!-- Modal -->

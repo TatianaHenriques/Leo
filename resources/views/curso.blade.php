@@ -31,7 +31,7 @@
                                         complexa rede de interações da matéria viva e aperfeiçoar os potenciais que determinam a associação e organização 
                                         de estruturas microscópicas em macro estruturas.
                                         <h2>SAIDAS PROFISSIONAIS</h2>
-                                        O mercado de trabalho para os profissionais dessa área é amplo, com oportunidades interessantes tanto para quem quer actuar no ensino como para quem pretende trabalhar em indústrias ou órgãos de pesquisa.  </p>
+                                        O mercado de trabalho para os profissionais dessa área é Âmplo, com oportunidades interessantes tanto para quem quer actuar no ensino como para quem pretende trabalhar em indústrias ou órgãos de pesquisa.  </p>
                                 </div>
                             </div>
                         </div>
@@ -48,28 +48,7 @@
 
         
     </section>
- 
-    <footer>
-        <div class="footer-top text-center">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 text-center">
-                        <h4 class="navbar-brand"> Liceu Eiffel de Ondjiva<span class="dot"> </span></h4>
-                        <p> </p>
-                        <div class="col-auto social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram'></i></a>
-                            <a href="#"><i class='bx bxl-pinterest'></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom text-center">
-             <p class="mb-0">Desenvolvido por: <a style="text-decoration:none; color:#fff;" href=""> Liceu Eiffel de Ondjiva</a></p>
-        </div>
-    </footer>
+
 
 
     <!-- Modal -->
