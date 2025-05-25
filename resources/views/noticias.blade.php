@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
                 <article class="blog-post" onclick="mostrarNoticia(this)" 
                 data-img="img/aulas1.jpg" 
                 data-titulo="Regresso às Aulas do Terceiro Trimestre" 
@@ -33,7 +33,7 @@
             </article>
             </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
                     <article class="blog-post" onclick="mostrarNoticia(this)" 
                     data-img="img/francofonia6.jpg" 
                     data-titulo="Liceu Eiffel Celebra o Dia da Francofonia com Cultura e Criatividade" 
@@ -48,7 +48,7 @@
                 </div>
                 </article>
                 </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
                         <article class="blog-post" onclick="mostrarNoticia(this)" 
                         data-img="img/talento.jpg" 
                         data-titulo="Celebração da Lusofonia no Liceu Eiffel de Ondjiva" 
@@ -69,7 +69,7 @@
                     </div>
                     </article>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
                         <article class="blog-post" onclick="mostrarNoticia(this)" 
                         data-img="img/sevelha.jpeg" 
                         data-titulo="Sevéria Hifikepunye: Destaque no Concurso Kandegue Escritor" 
@@ -84,7 +84,7 @@
                     </div>
                     </article>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
                         <article class="blog-post" onclick="mostrarNoticia(this)" 
                         data-img="img/visitacoordenador.jpg" 
                         data-titulo="Visita do Coordenador da Rede Eiffel ao LEO" 
@@ -99,7 +99,7 @@
                     </div>
                     </article>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4"data-aos="fade-up" data-aos-duration="1000">
                         <article class="blog-post" onclick="mostrarNoticia(this)" 
                         data-img="img/formacaocanva.jpg" 
                         data-titulo="Professores do Liceu Eiffel Participam de Formação sobre o Uso do Canva na Educação" 
@@ -201,5 +201,43 @@
         const myModal = new bootstrap.Modal(document.getElementById('noticiaModal'));
         myModal.show();
     }
+</script>
+<script>
+    let prevScrollPos = window.pageYOffset; // Posição inicial de rolagem
+    const noticiasContainer = document.getElementById('noticias-container');
+    const newsItems = document.querySelectorAll('.news-item'); // Todos os itens de notícia
+
+    window.onscroll = function() {
+        let currentScrollPos = window.pageYOffset;
+
+        // Se o usuário rolar para baixo
+        if (prevScrollPos < currentScrollPos) {
+            // Mostrar as notícias que estavam ocultas
+            noticiasContainer.style.transform = 'translateY(0)';
+            noticiasContainer.style.opacity = '1';
+
+            // Remover a classe 'hidden' de todas as notícias
+            newsItems.forEach((item, index) => {
+                if (index >= Math.floor(newsItems.length / 2)) {
+                    item.classList.remove('hidden');
+                }
+            });
+        } 
+        // Se o usuário rolar para cima
+        else {
+            // Adicionar a classe 'hidden' às notícias de baixo
+            noticiasContainer.style.transform = 'translateY(0)';
+            noticiasContainer.style.opacity = '1';
+
+            // Esconder as notícias da parte inferior
+            newsItems.forEach((item, index) => {
+                if (index >= Math.floor(newsItems.length / 2)) {
+                    item.classList.add('hidden');
+                }
+            });
+        }
+
+        prevScrollPos = currentScrollPos; // Atualiza a posição da rolagem
+    };
 </script>
 @endsection

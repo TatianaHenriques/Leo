@@ -251,11 +251,15 @@ section {
 /* Seção de introdução */
 .intro {
     margin-bottom: 36px;
-    text-align: center;
+
+    text-align:center;
+    
+    
 }
 
 .intro p {
     max-width: 500px;
+    text-align: justify;
 }
 
 .intro h6 {
@@ -268,7 +272,35 @@ section {
     margin: 15px 0;
     animation: fadeInUp 2s ease forwards;
     opacity: 0;
+    text-align: center
 }
+   /* Seção de Notícias */
+   .noticias-section {
+    background-color: rgba(173, 216, 230, 0.7); /* Azul claro com transparência */
+    padding: 50px 0;
+}
+
+/* Contêiner de notícias */
+#noticias-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+/* Cada item de notícia */
+.news-item {
+    opacity: 1;
+    transform: translateY(0); /* Começa no lugar certo */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Esconder as notícias quando rolar para cima */
+.hidden {
+    opacity: 0;
+    transform: translateY(100px); /* Move para baixo ao desaparecer */
+}
+
 
 /* Animação */
 @keyframes fadeInUp {
@@ -312,16 +344,39 @@ section {
     transform: scale(1.15);
 }
 
-/* Sessão milestone (marcos) com fundo */
-#milestone {
-    background: linear-gradient(rgba(0, 112, 192, 1), rgba(0, 112, 198, 0.30)), url(../img/ondjiva.jpg);
-    background-size: cover;
-    background-position: center;
+/* Sessão milestone (marcos) com fundo index barte de baixo antes do sobre */
+.milestone {
+    background: linear-gradient(rgba(5, 140, 236, 0.6), rgba(0, 112, 198, 0.3)), 
+                url('img/ondjiva.jpg'); 
 }
 
 #milestone h1,
 #milestone p {
-    color: #fff;
+    color: #fffafa;
+}
+
+.milestone-section {
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.milestone-section::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(29, 170, 252, 0.5); /* camada para contraste */
+    z-index: 2;
+}
+
+.milestone-section .container {
+    position: relative;
+    z-index: 2;
 }
 
 /* Bloco de serviço/ secção departamento*/
@@ -500,14 +555,24 @@ section {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.5s;
     margin: 0px;
+    opacity: 1; /* Inicialmente invisível */
+     transition: opacity 0,5s ease-out; /* Transição suave */
   }
 
 /* Zoom ao passar o mouse/ efeito de elevação */
 .blog-post:hover {
     transform: scale(1.02);
-    transform: translateY(-10px);
+    transform: translateY(20px);
     box-shadow: 0 6px 30px rgba(0,0,0,0.15);   
 
+}
+.blog-post.hidden {
+    opacity: 0; /* Desaparece quando a classe "hidden" é adicionada */
+    transform: translateY(20px); 
+}
+.blog-post.visible {
+    opacity: 3; /* Tornar visível quando a classe "visible" for adicionada */
+    transform: translateY(0);
 }
 
 /* Imagem do post */
@@ -562,6 +627,7 @@ section {
 /* ===== Rodapé / Footer ===== */
 footer {
     background: linear-gradient(45deg, #f5f6f8, #ffffff); /* Gradiente suave */
+    
     color: #080808; /* Cor do texto */
     padding-top: 40px;
     padding-bottom: 10px; /* Mais espaço na parte inferior */

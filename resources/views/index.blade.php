@@ -70,7 +70,7 @@
                         <div class="info-box">
                             <img src="img/local-2.png" alt="">
                             <div class="ms-4">
-                                <h5>Área de de Localização</h5>
+                                <h5> Localização</h5>
                                 <p>Com cerca de 320 mil habitantes, a comuna de Ondjiva é limitada a Norte pela
                                     comuna da Môngua, a Este pela comuna do Nehone, a Sul pela comuna de Namacunde e a
                                     Oeste pela comuna de Ombala-yo-Mungu. </p>
@@ -105,7 +105,7 @@
 </section>
 
 <!-- MILESTONE -->
-<section id="milestone" class="py-5 text-white" style="background: linear-gradient(to right, #76889b, #76adf5);">
+<section id="milestone" class="milestone-section py-5 text-white">
     <div class="container">
         <div class="row text-center">
             <div class="col-lg-3 col-6" data-aos="fade-up">

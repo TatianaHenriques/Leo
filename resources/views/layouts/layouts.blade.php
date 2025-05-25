@@ -53,8 +53,19 @@
                   <li class="nav-item"><a class="nav-link" href="{{ url('/departamento') }}">Departamento</a></li>
                   <li class="nav-item"><a class="nav-link" href="https://redeeiffel.ao" target="_blank">Rede Eiffel</a></li>
                   <li class="nav-item"><a class="nav-link" href="https://liceueiffel.redeeiffel.ao/viewondjiva" target="_blank">Entrar</a></li>
-                </ul>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sobre O LEO
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="{{ url('/') }}#about">Localização</a></li>
+                        <li><a class="dropdown-item" href="{{ asset('docs/regulamento_interno.pdf') }}" target="_blank">Regulamento Interno</a></li> <!-- Link para o PDF -->
+                        
+                    </ul>
+                </li>
                    <a href="#" class="btn btn-primary ms-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Contato</a>
+                </ul>
             </div>
         </div>
     </nav>
@@ -97,6 +108,7 @@
     
 
     <!-- JS -->
+    
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
@@ -108,6 +120,8 @@
         duration: 2000, 
         once: true      
     });
+    
 </script>
+
 </body>
 </html>
