@@ -36,7 +36,9 @@
                     <img src="img/biolo.png" alt="">
                     <h5>Laboratório de Biologia</h5>
                     <p>É um ambiente onde os alunos de todas classes podem
-                        aprender na prática os conteúdos vistos em sala de aulas. </p>
+                        aprender na prática os conteúdos vistos em sala de aulas. </p><a class="nav-link" href="{{ url('/biologia') }}">clique aqui para visitar o Laboratório</a>
+
+                        
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -44,7 +46,9 @@
                     <img src="img/fisica.png" alt="">
                     <h5>Laboratório de Física</h5>
                     <p>O laboratório está capacitado para o desenvolvimento de
-                        projetos de pesquisa voltados na área de ciências físicas e afins.</p>
+                        projetos de pesquisa voltados na área de ciências físicas.</p>
+                        <a class="nav-link" href="{{ url('/fisica') }}">clique aqui para visitar o laboratório</a>
+
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -53,7 +57,8 @@
                     <h5>Laboratório de Química</h5>
                     <p>O laboratório de Química possue diversos equipamentos, vidrarias,
                         aparelhos e dispositivos que permitem a realização de inúmeras actividades.
-                    </p>
+                    </p><a class="nav-link" href="{{ url('/quimica') }}">clique aqui para visitar o laboratório</a>
+
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -61,14 +66,17 @@
                     <img src="img/informatica.png" alt="">
                     <h5>Sala de Informática Equipada</h5>
                     <p>O liceu Eiffel de Ondjiva promove a utilização das tecnologias da informação e comunicação
-                        no sistema educativo.</p>
-                </div>
+                        no sistema educativo.</p><a class="nav-link" href="{{ url('/informatica') }}">clique aqui para visitar o Laboratório </q></a>
+
+                </div>  
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="service">
-                    <img src="img/fut.png" alt="">
-                    <h5>Campo de Futebol</h5>
-                    <p>Promover estilos de vida saudáveis que contribuam para a formação equilibrada dos alunos/as;</p>
+                    <img src="img/arte-2-0.png" alt="">
+                    <h5>Arte e Cultura</h5>
+                    <p> Desenvolvendo a criatividade intercultural </p>
+                    <a class="nav-link" href="{{ url('/arte') }}">clique aqui para a secção de Arte</a>
+
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -76,7 +84,8 @@
                     <img src="img/quadra.png" alt="">
                     <h5>Quadro desportiva</h5>
                     <p> Alargar a prática desportiva a todos alunos nas diversas modalidades desportivas praticadas em
-                        quadras...</p>
+                        quadras...</p><a class="nav-link" href="{{ url('/desporto') }}">Clique aqui para visitar a quadra desportiva</a>
+
                 </div>
             </div>
         </div>

@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-auto">
-                    <p><i class='bx bxs-envelope'></i> tuta75@gmail.com</p>
+                    <p><i class='bx bxs-envelope'></i> eiffelondjiva@gmail.com</p>
                     <p><i class='bx bxs-phone-call'></i> +244 265 351 020</p>
                 </div>
                 <div class="col-auto social-icons">
@@ -36,7 +36,7 @@
     <!-- Botão de NAV -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><span class="dot">LEOndjiva</span></a>
+            <a class="navbar-brand" href="#"> <img src="img/about.png" alt="LEOndjiva" class="logo-img"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -98,12 +98,12 @@
             </div>
         </div>
         <div class="footer-bottom text-center">
-                   <p class="text-center">Desenvolvido por: <a style="text-decoration:none; color:#fff;" href=""> Liceu Eiffel de
+                   <p class="text-center"> <a style="text-decoration:none; color:#fff;" href=""> Liceu Eiffel de
                     Ondjiva</a></p>
         </div>
     </footer>
     <footer>
-        <p class="text-center">© 2025 Liceu Eiffel de Ondjiva</p>
+        <p class="text-center">© 2025 Copyright Rede Eiffel</p>
     </footer>
     
 

@@ -21,8 +21,7 @@
                         <h1>De 2ª à 6ª das 8H as 15H</h1>
                         <h6>Fale com nosco</h6>
                         <h1>Secretaria Liceu Eiffel de Ondjiva</h1>
-                        <p class="mx-auto">A comunicação é fundamental para o funcionamento da organização, pois,
-                             para a melhoria e desenvolvimento de nossas atividades, há a necessidade de troca de informações com o público.</p>
+                        <p class="mx-auto">A secretaria do Liceu Eiffel de Ondjiva está disponível para atendimento ao público de segunda a sexta-feira, das 8h00 às 15h00. Durante este período, estamos prontos para prestar apoio em questões administrativas, inscrições, informações sobre cursos, e outras solicitações relacionadas à vida escolar.Para garantir um atendimento eficiente, recomendamos que os interessados procurem a secretaria dentro deste horário. Estamos empenhados em oferecer um serviço acolhedor e ágil para toda a comunidade escolar. para mais informções entre em contacto apartir dos números de telefones ou E-mail.</p>
                     </div>
                 </div>
             </div>
@@ -44,13 +43,12 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
                         <img src="img/icone5.png" alt="">
-                        <h5>leondjiva17@gmail.com</h5>
+                        <h5>eiffelondjiva@gmail.com</h5>
                         <p></p>
                     </div>
                 </div>
         </div>
     </section>
-
 
 
 

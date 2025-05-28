@@ -14,7 +14,7 @@
             <div class="row">
                 <div class="col-12 text-center text-white">
                     <h6 class="text-white text-uppercase"></h6>
-                    <h1 class="display-3 my-4">Philippe Dos Santos<br />Coordenador da Rede Eiffel</h1>
+                    <h1 class="display-3 my-4">Philippe Dos Santos<br />Coordenador da Rede Eiffel e sua Equipe</h1>
                     <!-- #region <a href="#" class="btn btn-brand">Ler +</a>-->
                     <a href="http://redeeiffel.ao" class="btn btn-outline-light ms-3" target="_blank">Rede Eiffel</a>
                 </div>
@@ -47,6 +47,24 @@
     </div>
     </div>
 </div>
+<section id="origem-liceu" class="secao-liceu">
+  <div class="container-liceu">
+    <div class="box">
+      <h2></h2>
+      <p><a class="nav-link" href="{{ url('/origem') }}"> </q>Origem</a> </p>
+    </div>
+
+    <div class="box">
+      <h2></h2><a class="nav-link" href="{{ url('/historia') }}"> </q>História</a>
+    </div>
+
+    <div class="box destaque">
+      <h2>Inscrições Abertas</h2>
+      <p>Clique abaixo para acessar o formulário de inscrição:</p>
+      <a href="https://liceueiffel.redeeiffel.ao/inscricao_novo_estudante" class="btn-inscricao" target="_blank">Inscreva-se Agora</a>
+    </div>
+  </div>
+</section>
 
 <!-- sobre -->
 <section id="about">
@@ -66,18 +84,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-4">
-                        <div class="info-box">
-                            <img src="img/local-2.png" alt="">
-                            <div class="ms-4">
-                                <h5> Localização</h5>
-                                <p>Com cerca de 320 mil habitantes, a comuna de Ondjiva é limitada a Norte pela
-                                    comuna da Môngua, a Este pela comuna do Nehone, a Sul pela comuna de Namacunde e a
-                                    Oeste pela comuna de Ombala-yo-Mungu. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 mt-4">
+                     <div class="col-12 mt-4">
                         <div class="info-box">
                             <img src="img/ondjiva-3.png" alt="">
                             <div class="ms-4">
@@ -88,8 +95,47 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-12 mt-4">
+                        <div class="info-box">
+                            <img src="img/local-2.png" alt="">
+                            <div class="ms-4">
+                                <p><div class="mapa">
+                            <h2>Localização</h2>
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3906.636025567684!2d15.733145815326105!3d-17.066429488107444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1bb9f4c9c47e9d7b%3A0xaaa4ae51c4f7e50b!2sOndjiva%2C%20Angola!5e0!3m2!1spt-PT!2sao!4v1623782284941!5m2!1spt-PT!2sao"
+                                width="100%" 
+                                height="400" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy">
+                            </iframe>
+                        </div></p>
+                         </div>
+                        </div>
+                    </div>
+                   
                 </div>
             </div>
+            <section id="parceiros" class="parceiros-container">
+        <h2>Parceiros</h2>
+        <div class="parceiros-grid">
+            <div class="parceiro">
+                <img src="img/angola.jpeg" alt="Parceiro 1">
+            </div>
+            <div class="parceiro">
+                <img src="img/totalenergies-logo.png" alt="Parceiro 2">
+            </div>
+            <div class="parceiro">
+                <img src="img/missaologo.png" alt="Parceiro 3">
+            </div>
+            <div class="parceiro">
+                <img src="img/embaixada-logo.jpg" alt="Parceiro 3">
+            </div>
+            <!-- Adicione mais parceiros conforme necessário -->
+        </div>
+</section>
+            
+            
             <div class="col-lg-5">
                 <img src="img/sobre.png" alt="" style= "width:80%; margin-top:30px;"class ="mx-auto">
             </div>
@@ -103,6 +149,7 @@
 
 
 </section>
+
 
 <!-- MILESTONE -->
 <section id="milestone" class="milestone-section py-5 text-white">
